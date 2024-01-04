@@ -8,6 +8,7 @@
     <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
     <title>Portfolio Website - Saptarshi</title>
 </head>
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 <body>
     <!--===== BACKGROUND =====-->
 <div class="area" >
@@ -38,7 +39,7 @@
                 <div>
                     <a href="#" class="nav__logo">Saptarshi</a>
                 </div>
-                
+                <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list">
                         <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
@@ -58,8 +59,9 @@
         <main class="l-main">
             <!--===== HOME =====-->
             <section class="home bd-grid" id="home">
+                <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
                 <div class="home__data">
-                    <h1 class="home__title">Hi,<br>I'm <span class="home__title-color">Sappy</span><br>Fullstack Developer</h1>
+                    <h1 class="home__title">Hi,<br>I'm <span class="home__title-color">Sappy</span><br><span id="element"></span></h1>
                     
                     <a href="https://drive.google.com/file/d/1B9VsdgZn6RSkTTeHELBpZuW4D7GyiQG6/view?usp=drive_link" class="button">Download CV</a>
                 </div>
@@ -96,7 +98,7 @@
                     
                     <div>
                         <h2 class="about__subtitle">I'm Saptarshi</h2>
-                        <p class="about__text">👋 Hello there! I'm Saptarshi, a passionate Fullstack Developer with a love for crafting elegant and efficient solutions to complex problems.</p>           
+                        <p class="about__text">B.Tech ECE Student Seeking Connections and Opportunities on LinkedIn! Despite being a Programmer, I love spending time on my Guitar!</p>           
                     </div>                                   
                 </div>
             </section>
@@ -200,7 +202,7 @@
                 <h2 class="section-title">Contact</h2>
                 
                 <div class="contact__container bd-grid">
-                    <form action="" class="contact__form">
+                    <form action="https://formsubmit.co/saph.6869@gmail.com" method="POST" class="contact__form">
                         <input type="text" placeholder="Name" class="contact__input">
                         <input type="mail" placeholder="Email" class="contact__input">
                         <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
@@ -209,11 +211,10 @@
                 </div>
             </section>
         </main>
-        
         <!--===== FOOTER =====-->
         
         <footer class="footer">
-            <p class="footer__title">Biki Mukherjee</p>
+            <p class="footer__title">Saptashi</p>
             <div class="footer__social">
                 <a href="https://wa.me/+917439207218" class="footer__icon"><i class='bx bxl-whatsapp' ></i></a>
                 <a href="https://www.instagram.com/myself_subho_777/" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
@@ -229,6 +230,15 @@
         
         <!--===== MAIN JS =====-->
         <script src="script.js"></script>
+        <script>
+            var typed = new Typed('#element', {
+              strings: ['Web Developer','ML Enthusiast','Photographer','Traveller'],
+              typeSpeed: 100,
+              backSpeed: 40,
+              loop : true,
+            });
+          </script>
+          
     </body>
     </html>
     
